@@ -13,7 +13,7 @@ exports.test = async (req, res) => {
                 })
             })
         })
-        console.table()
+        console.log()
     } catch (e) {
         console.log(e)
     }
