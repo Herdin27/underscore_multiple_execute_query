@@ -12,7 +12,6 @@ exports.test = async (req, res) => {
                     return res.send(result.rows)
                 })
             })
-            console.log()
         })
 
     } catch (e) {
